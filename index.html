@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2e5f9e07b5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="form-container">
+        <article class="signin-signup">
+          <!--Formulario de Sign Ip-->
+          <form class="signin-form">
+            <h2 class="title">Sign In</h2>
+            <p>Select method to sign in:</p>
+
+            <div class="social-btns">
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="User name" />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+
+            <span><a href="#">Forgot your password?</a></span>
+
+            <button class="btn">Login</button>
+          </form>
+
+          <!--Formulario de Sign Up-->
+          <form class="signup-form">
+            <h2 class="title">Sign Up</h2>
+            <p>Welcome! Select method to sign up:</p>
+
+            <div class="social-btns">
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+
+            <p>or continue with email</p>
+            <div class="input-field">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="User name" />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+
+            <button class="btn">Login</button>
+          </form>
+        </article>
+      </section>
+
+      <!--Paneles de sign in y sign up que aparecen sobre la forma-->
+      <!--Panel Izquierdo-->
+      <section class="panels-container">
+        <article class="panel left-panel">
+          <div class="content">
+            <h3>New here?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              repellendus sunt amet ut labore repellat ullam excepturi eligendi.
+            </p>
+            <button class="btn transparent" id="signup-btn">Sign Up</button>
+          </div>
+
+          <img src="img/team.svg" class="image" />
+        </article>
+
+        <!--Panel Derecho-->
+        <article class="panel right-panel">
+          <div class="content">
+            <h3>One of us?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+              repellendus sunt amet ut labore repellat ullam excepturi eligendi.
+            </p>
+            <button class="btn transparent" id="signin-btn">Sign In</button>
+          </div>
+
+          <img src="img/woman-signin.svg" class="image" />
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
