@@ -11,7 +11,7 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: #ffe5df;
   overflow: hidden;
 }
 
@@ -22,7 +22,7 @@
   width: 2000px;
   height: 2000px;
   border-radius: 50%;
-  background: #7f9ffa;
+  background: #6d597a;
   /*Muevo la forma de lugar y la posiciono en el margen derecho*/
   top: -10%;
   right: 48%;
@@ -96,8 +96,8 @@ p {
 
 .social-btns a {
   text-decoration: none;
-  color: #7f9ffa;
-  border: 1px solid #7f9ffa;
+  color: #6d597a;
+  border: 1px solid #6d597a;
   border-radius: 20%;
   display: inline-flex;
   justify-content: center;
@@ -109,8 +109,8 @@ p {
 }
 
 .social-btns a:hover {
-  color: #464646;
-  border-color: #464646;
+  color: #e28e90;
+  border-color: #e28e90;
 }
 
 .input-field {
@@ -149,7 +149,7 @@ p {
 }
 
 span a {
-  color: #7f9ffa;
+  color: #231942;
   text-decoration: none;
   font-size: 0.8rem;
 }
@@ -159,7 +159,7 @@ span a {
   height: 50px;
   width: 100%;
   color: #fff;
-  background-color: #7f9ffa;
+  background-color: #6d597a;
   border: none;
   outline: none;
   border-radius: 30px;
@@ -172,17 +172,17 @@ span a {
 }
 
 .btn:hover {
-  background-color: #464646;
+  background-color: #e28e90;
 }
 
 a {
-  color: #7f9ffa;
+  color: #6d597a;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: #464646;
+  color: #e28e90;
 }
 
 /*Paneles de sign in y sign up*/
@@ -249,7 +249,7 @@ a:hover {
 
 .btn.transparent:hover {
   background: #fff;
-  color: #7f9ffa;
+  color: #231942;
 }
 
 .image {
